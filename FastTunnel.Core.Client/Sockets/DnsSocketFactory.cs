@@ -16,7 +16,7 @@ using System.Threading.Tasks;
 namespace FastTunnel.Core.Client.Sockets
 {
 
-    public class DnsSocketFactory
+    internal class DnsSocketFactory
     {
         public static async Task<Socket> ConnectAsync(string host, int port)
         {

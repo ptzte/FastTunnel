@@ -8,7 +8,7 @@ using System;
 
 namespace FastTunnel.Core.Exceptions
 {
-    public class ClienOffLineException : Exception
+    internal class ClienOffLineException : Exception
     {
         public ClienOffLineException(string message)
             : base(message)

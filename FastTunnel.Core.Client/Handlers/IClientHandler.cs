@@ -15,7 +15,7 @@ using System.Threading;
 
 namespace FastTunnel.Core.Handlers.Client
 {
-    public interface IClientHandler
+    internal interface IClientHandler
     {
         /// <summary>
         /// 处理消息

@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace FastTunnel.Core.Forwarder
 {
-    public class TranStream : Stream
+    internal class TranStream : Stream
     {
         private readonly Stream readStream;
         private readonly Stream wirteStream;

@@ -29,7 +29,7 @@ internal partial class SourceGenerationContext : JsonSerializerContext
 {
 }
 
-public class LoginHandler : ILoginHandler
+internal class LoginHandler : ILoginHandler
 {
     private readonly ILogger logger;
     private readonly IProxyConfigProvider proxyConfig;
