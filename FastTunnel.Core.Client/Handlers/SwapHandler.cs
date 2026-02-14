@@ -15,7 +15,7 @@ using FastTunnel.Core.Client.Sockets;
 
 namespace FastTunnel.Core.Handlers.Client
 {
-    public class SwapHandler : IClientHandler
+    internal class SwapHandler : IClientHandler
     {
         readonly ILogger<SwapHandler> _logger;
         static int connectionCount;

@@ -11,7 +11,7 @@ using Microsoft.Extensions.Logging;
 
 namespace FastTunnel.Core.Handlers.Client;
 
-public class LogHandler : IClientHandler
+internal class LogHandler : IClientHandler
 {
     private readonly ILogger<LogHandler> _logger;
 

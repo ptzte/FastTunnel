@@ -8,7 +8,7 @@ using FastTunnel.Core.Extensions;
 
 namespace FastTunnel.Core.Filters
 {
-    public class FastTunnelExceptionFilter : IExceptionFilter
+    internal class FastTunnelExceptionFilter : IExceptionFilter
     {
         private readonly IWebHostEnvironment _hostingEnvironment;
         private readonly ILogger<FastTunnelExceptionFilter> logger;

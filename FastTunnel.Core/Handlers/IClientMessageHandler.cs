@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 
 namespace FastTunnel.Core.Handlers.Server
 {
-    public interface IClientMessageHandler
+    internal interface IClientMessageHandler
     {
         bool NeedRecive { get; }
 

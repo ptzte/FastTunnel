@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace FastTunnel.Core.Forwarder.MiddleWare
 {
-    public class FastTunnelSwapHandler
+    internal class FastTunnelSwapHandler
     {
         ILogger<FastTunnelClientHandler> logger;
         FastTunnelServer fastTunnelServer;

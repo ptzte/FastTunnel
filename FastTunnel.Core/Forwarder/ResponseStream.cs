@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace FastTunnel.Core.Forwarder
 {
-    public class ResponseStream : Stream
+    internal class ResponseStream : Stream
     {
         public override bool CanRead => true;
 

@@ -9,7 +9,7 @@ using Yarp.ReverseProxy.Configuration;
 
 namespace FastTunnel.Core.Forwarder
 {
-    public class FastTunnelProxyConfig : IProxyConfig
+    internal class FastTunnelProxyConfig : IProxyConfig
     {
         public FastTunnelProxyConfig()
             : this(Array.Empty<RouteConfig>(), Array.Empty<ClusterConfig>())

@@ -17,7 +17,7 @@ using System.Threading.Tasks;
 
 namespace FastTunnel.Core.Forwarder.MiddleWare
 {
-    public class FastTunnelClientHandler
+    internal class FastTunnelClientHandler
     {
         readonly ILogger<FastTunnelClientHandler> logger;
         readonly FastTunnelServer fastTunnelServer;

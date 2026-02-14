@@ -16,7 +16,7 @@ namespace FastTunnel.Core.Utilitys
 {
 
 
-    public class WebSocketUtility
+    internal class WebSocketUtility
     {
         private readonly WebSocket webSocket;
 

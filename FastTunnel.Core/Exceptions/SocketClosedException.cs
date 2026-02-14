@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace FastTunnel.Core.Exceptions
 {
-    public class SocketClosedException : Exception
+    internal class SocketClosedException : Exception
     {
         public SocketClosedException(string msg) : base(msg)
         {

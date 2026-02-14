@@ -25,7 +25,7 @@ using Yarp.ReverseProxy.Forwarder;
 
 namespace FastTunnel.Core.Forwarder;
 
-public class FastTunnelForwarderHttpClientFactory : ForwarderHttpClientFactory
+internal class FastTunnelForwarderHttpClientFactory : ForwarderHttpClientFactory
 {
     readonly ILogger<FastTunnelForwarderHttpClientFactory> logger;
     readonly FastTunnelServer fastTunnelServer;

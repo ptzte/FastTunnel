@@ -10,7 +10,7 @@ using System.Text;
 
 namespace FastTunnel.Core.Exceptions
 {
-    public class APIErrorException : Exception
+    internal class APIErrorException : Exception
     {
         public APIErrorException(string message)
             : base(message)

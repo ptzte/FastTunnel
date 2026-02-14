@@ -48,7 +48,7 @@ public class FastTunnelClient : IFastTunnelClient
 
     public SuiDaoServer Server { get; protected set; }
 
-    public FastTunnelClient(
+    internal FastTunnelClient(
         ILogger<FastTunnelClient> logger,
         SwapHandler newCustomerHandler,
         LogHandler logHandler,
